@@ -2,23 +2,31 @@
 
 ### Agenda
 
-* What are databases?
-* What is SQL?
-* How do we communicate SQL to the database?
-* Tables
+* What are databases? (SQlite3, Postgresql, MySQL, Firebase)
+* What is SQL? (Structured Query Language)
+* How do we communicate SQL to the database? (gem install sqlite3)
+* Tables (Blueprint for records or instances of a table)
 * Inserting into a table
 * Querying a record (SELECT)
-* removing a record from a table
+* Advanced querying
+  * WHERE (conditional querying)
+  * GROUP BY ( needed when based on group query of a column )
+  * ORDER ( ordering a list by a column asc or desc)
+* HAVING (can use aggregators, used when there is a group by)
+* MIN MAX COUNT etc... ( the aggregators)
+* removing a record from a table ( DELETE FROM pets; )
 * updating a record in a table
 * Altering the table (ALTER TABLE)
 * Adding a column (ADD COLUMN)
 * Altering a column (ALTER COLUMN)
-* Advanced querying
-  * WHERE
-  * GROUP BY
-  * ORDER
-* HAVING
-* MIN MAX COUNT etc...
 
 Associating Tables
 * JOINS
+
+Pets
+---
+id PRIMARY KEY
+name TEXT
+age INTEGER
+breed TEXT
+color TEXT
