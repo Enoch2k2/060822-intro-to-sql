@@ -21,8 +21,12 @@
 * Altering a column (ALTER COLUMN)
 
 Associating Tables
-* JOINS
+* JOINS - How we are able to query more than one table
 
+(take note, the lecture did not cover in depth the associations in sql)
+The association we did cover was the belongs to has many, we did not cover the many to many and join table.
+
+### Example of a table
 Pets
 ---
 id PRIMARY KEY
