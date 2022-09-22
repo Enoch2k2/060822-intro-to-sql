@@ -27,6 +27,8 @@ Associating Tables
 The association we did cover was the belongs to has many, we did not cover the many to many and join table.
 
 ### Example of a table
+
+```
 Pets
 ---
 id PRIMARY KEY
@@ -34,3 +36,4 @@ name TEXT
 age INTEGER
 breed TEXT
 color TEXT
+```
